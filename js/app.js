@@ -133,7 +133,6 @@
     scroller.addEventListener("wheel", (e => {
         let scrollCountHero = 1.23 * scroller.scrollLeft + "px";
         heroMove.style.left = scrollCountHero;
-        console.log(heroMove.style.left);
         if (heroMove.style.left >= 5200 + "px") heroMove.style.left = 0 + "px"; else heroMove.style.left = scrollCountHero;
         let scrollCount = scroller.scrollLeft + "px";
         if (scrollCount > 0 + "px") document.documentElement.classList.add("_scroll"); else document.documentElement.classList.remove("_scroll");
