@@ -990,6 +990,17 @@ h6 {
   display: inline-block;
 }
 
+*::-webkit-scrollbar {
+  width: 4px;
+  height: 7px;
+  background: #6a727b;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #d2ab5a;
+  border-radius: 1px;
+}
+
 /*
 .icon-menu {
 	display: none;
